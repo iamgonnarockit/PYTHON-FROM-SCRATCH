@@ -18,3 +18,11 @@ print(str[1:5])
 fruits=["Apple","Blueberry","Orange","Pineapple","Mangoes"]
 print(fruits[-1])
 print(fruits[:-2])
+
+#String Functions
+str="i want to be fluent in Python"
+print(str.capitalize( )) #Capitalizes the first letter
+print(str.endswith("on")) #Returns tru if string ends with substr
+print(str.replace("n","p")) #replaces all occurrences of old with new
+print(str.count("o")) #counts the occurrence of substr in string
+print(str.find("in"))
